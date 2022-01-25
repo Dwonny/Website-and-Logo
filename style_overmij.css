@@ -1,0 +1,151 @@
+body {
+    background-color: lightblue; /* met foto: background-image: url(IMAGES/achtergrondfoto.jpg); */
+    color:black;
+    font-size: 87,5%; /* Standaard 14px */
+    font-family: Arial, 'Lucida Sans Unicode'; 
+    line-height: 1.5;
+    text-align: left;       
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: rgb(65, 65, 255) /* Kleur van de link knopje */
+}
+
+a:hover, a:active {
+    background-color: rgb(65, 65, 255);
+    color: white;
+}
+
+.mainheader a   { /*Geen gekleurde balken onde de foto */
+    background: none;
+    color:transparent;
+}
+
+.mainheader2 a  { /*Geen gekleurde balken onde de foto */
+    background: none;
+    color:transparent;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both; /* Geen vliegende elementen aan de rechter en linker kant */
+}
+
+.mainheader img {
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainheader nav {
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px; /* Rondere zijkanten van de knoppen */
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px; /* Menu balk in goeie postite zetten */
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+    background-color: rgb(65, 65, 255);
+    text-shadow: none;
+}
+
+.mainheader nav ul li a {
+    border-radius: 5px;
+}
+
+.maincontent {
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+.content {
+    width: 100%;
+}
+
+.mainpageh2 {
+    color: rgb(65, 65, 255);
+}
+
+.topcontent {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3% 5%; /* Ruimte en in zijkanten */
+    margin-top: 2%; /* Ruimte tussen de 2 artikels */
+}
+
+.bottomcontent {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3% 5%; /* Ruimte en in zijkanten */
+    margin-top: 2%; /* Ruimte tussen de 2 artikels */
+}
+
+.top-sidebar {
+    width: 21%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%; /* TRBL = Top, Right, Bottom, Left */ 
+    padding: 2% 3%; /* Ruimte en in zijkanten */
+}
+
+.post-info {
+    font-style: italic;
+    color: gray;
+    font-size: 85%;
+}
+
+.middle-sidebar {
+    width: 21%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%; /* TRBL = Top, Right, Bottom, Left */ 
+    padding: 2% 3%; /* Ruimte en in zijkanten */
+}
+
+.bottom-sidebar {
+    width: 21%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2% 0 2% 3%; /* TRBL = Top, Right, Bottom, Left */ 
+    padding: 2% 3%; /* Ruimte en in zijkanten */
+}
+
+.mainfooter {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: #666;
+    border-radius: 5px;
+    margin: 2% 0; /* Top+Bottem - Right+Left */
+}
+
+.mainfooter p {
+    width: 92%;
+    margin: 10px auto;
+    color: white;
+}
